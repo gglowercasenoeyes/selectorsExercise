@@ -1,0 +1,80 @@
+/* #2--there is no formal #1 in the exercise */
+body{
+    background-color: #ced4d8;
+}
+/* #3 */
+h1{
+    color: #ac6ac7;
+}
+/* #4 */
+h2{
+    color: rgb(255, 165, 0);
+}
+/* #5 */
+li{
+    color: blue;
+}
+/* #6 */
+p{
+    background-color: gold;
+}
+/* #7 */
+input{
+    border: 5px dotted pink;
+}
+/* #8 */
+.first{
+    background-color: #fff;
+}
+/* #9 */
+#important{
+    border: 3px dashed #0000ff;
+}
+/* #10 */
+div p{
+    font-size: 30px;
+}
+/* #11 */
+[type=email]{
+    background-color: #808080;
+}
+/* #12 */
+div:nth-of-type(3) p{
+    background-color: hotpink;
+}
+/* #13 */
+div:nth-of-type(3) p:nth-of-type(2){
+    border: 7px solid rgb(255, 255, 255);
+/* you can still do nth child but all the children are counted, not just the element chosen.  nth-child(3) */}
+/* #14 */
+div p em{
+    color: seashell;
+    font-size: 25px;
+}
+/* BONUS */
+/* #1 */
+:checked{
+    margin-left: 40px;
+}
+/* #2 */
+label{
+    text-transform: lowercase;
+}
+/* #3 */
+#important::first-letter{
+    font-size: 90px;
+}
+/* #4 */
+h1:hover{
+    color: navy;
+}
+/* #5 */
+a:link{
+    background-color: teal;
+}
+a:visited{
+    color: silver;
+}
+a:hover{
+    background-color: purple;
+}
